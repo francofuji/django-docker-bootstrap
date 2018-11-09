@@ -9,7 +9,7 @@ RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive \
 
 RUN pip3 install \
       uwsgi==2.0.14 \
-      django==1.10.2 \
+      django==1.11.1 \
       psycopg2==2.6.2 \
       django-debug-toolbar==1.6 \
       djangorestframework==3.4.7 \

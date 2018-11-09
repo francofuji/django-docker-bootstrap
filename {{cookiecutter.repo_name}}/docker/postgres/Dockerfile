@@ -8,7 +8,7 @@ RUN set -x \
        /etc/postgresql-common/createcluster.conf \
     && DEBIAN_FRONTEND=noninteractive \
        apt-get install -y --no-install-recommends \
-           postgresql-9.4 \
-           postgresql-contrib-9.4
+           postgresql-9.6 \
+           postgresql-contrib-9.6
 
-ENV PATH /usr/lib/postgresql/9.4/bin:$PATH
+ENV PATH /usr/lib/postgresql/9.6/bin:$PATH
